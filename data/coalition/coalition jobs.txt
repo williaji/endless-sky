@@ -157,7 +157,7 @@ mission "Coalition: Ringworld Materials 1"
 	name "Materials to the <planet>"
 	description "Deliver these <tons> of construction materials to the Heliarch <planet> by <date>. Payment will be <payment>."
 	deadline
-	cargo "Construction" 10 3 .02
+	cargo "Coaltion Construction" 10 3 .02
 	to offer
 		has "known to the heliarchs"
 		random < 30
@@ -179,7 +179,7 @@ mission "Coalition: Ringworld Materials 2"
 	name "Materials to the <planet>"
 	description "Deliver these <tons> of construction materials to the Heliarch <planet> by <date>. Payment will be <payment>."
 	deadline
-	cargo "Construction" 10 4 .02
+	cargo "Coaltion Construction" 10 4 .02
 	to offer
 		has "known to the heliarchs"
 		random < 20
@@ -201,7 +201,7 @@ mission "Coalition: Ringworld Materials 3"
 	name "Materials to the <planet>"
 	description "Deliver these <tons> of construction materials to the Heliarch <planet> by <date>. Payment will be <payment>."
 	deadline
-	cargo "Construction" 10 5 .02
+	cargo "Coalition Construction" 10 5 .02
 	to offer
 		has "known to the heliarchs"
 		random < 10
