@@ -121,7 +121,6 @@ trade
 		"rice"
 		"salt"
 		"seaweed"
-		"sheep"
 		"snack cakes"
 		"sorghum"
 		"soy products"
@@ -138,6 +137,7 @@ trade
 		"yams"
 		"yeast extract"
 		"yogurt"
+	
 	# commodity "Clothing" 140 440
 		"athletic wear"
 		"balls of yarn"
@@ -195,7 +195,8 @@ trade
 		"wigs"
 		"wool"
 		"zippers"
-#	commodity "Metal" 190 590
+	
+	#	commodity "Metal" 190 590
 		"aluminized steel"
 		"aluminum"
 		"beryllium"
@@ -245,7 +246,8 @@ trade
 		"tool steel blanks"
 		"vanadium"
 		"zinc"
-#	commodity "Plastic" 240 540
+	
+	#	commodity "Plastic" 240 540
 		"acetone"
 		"asphalt"
 		"bakelite"
@@ -283,7 +285,8 @@ trade
 		"unplasticized PVC"
 		"vinylesters"
 		"xylene"
-#	commodity "Equipment" 330 730
+	
+	#	commodity "Equipment" 330 730
 		"3D printers"
 		"CNC machines"
 		"air conditioners"
@@ -350,7 +353,8 @@ trade
 		"wheelbarrows"
 		"whiskey barrels"
 		"wine casks"
-#	commodity "Medical" 430 930
+
+	#	commodity "Medical" 430 930
 		"antibacterials"
 		"antibiotics"
 		"anti-inflammatories"
@@ -418,7 +422,8 @@ trade
 		"tourniquets"
 		"tranquilizers"
 		"tweezers"
-	commodity "Industrial" 520 920
+	
+	#	commodity "Industrial" 520 920
 		"aniline dyes"
 		"assorted shimstock"
 		"battery acid"
@@ -490,7 +495,8 @@ trade
 		"turret lathes"
 		"vacuum cleaners"
 		"varnish"
-	commodity "Electronics" 590 890
+	
+	#	commodity "Electronics" 590 890
 		"accelerometers"
 		"amplifiers"
 		"antennae"
@@ -554,7 +560,7 @@ trade
 		"vacuum tubes"
 		"voltage converters"
 		"wireless receivers"
-	commodity "Heavy Metals" 610 1310
+	#	commodity "Heavy Metals" 610 1310
 		"actinide metals"
 		"barium"
 		"bismuth"
@@ -575,7 +581,8 @@ trade
 		"reactor-grade uranium"
 		"thorium"
 		"tungsten"
-	commodity "Luxury Goods" 920 1520
+	
+	#	commodity "Luxury Goods" 920 1520
 		"antique weapons"
 		"bawdy magazines"
 		"brandy"
@@ -630,6 +637,7 @@ trade
 		"whiskey"
 		"wine"
 		"yachts"
+	
 	commodity "Coalition Garbage"
 		"animal by-products"
 		"biological waste"
@@ -667,10 +675,9 @@ trade
 		"spent nuclear fuel"
 		"thermoset polymer waste"
 		"trash"
-		"unpaired socks"
-		"used syringes"
 		"volatile gases"
 		"waste"
+	
 	commodity "Coalition Construction"
 		"ringworld plating"
 		"orbital grade solar panels"
@@ -693,7 +700,7 @@ trade
 		"biological waste reprocessing modules"
 		"moving walkway modules"
 		"vertical lift modules"
-		"stairway modules
+		"stairway modules"
 		"ramp modules"
 		"orbital grade viewports"
 		"heavy duty EVA suit (Arach)"

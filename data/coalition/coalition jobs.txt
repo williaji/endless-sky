@@ -227,7 +227,7 @@ mission "Coalition: Ringworld Supplies 1"
 	repeat
 	name "Supplies to the <planet>"
 	description "This shipment of <tons> of supplies is a donation from the government of <origin> to help support the Heliarch <planet>. You will be paid <payment> on delivery."
-	cargo random 5 10 .2
+	cargo "Coalition General" 5 10 .2
 	to offer
 		has "known to the heliarchs"
 		random < 50
@@ -799,7 +799,7 @@ mission "Coalition: Fast Courier 1"
 	name "Fast courier to <planet>"
 	description "Deliver <cargo> to <destination> by <date>. The payment is <payment>."
 	deadline 5 1
-	cargo random 2 20 .6
+	cargo "Coalition General" 2 20 .6
 	to offer
 		has "known to the heliarchs"
 		random < 60
@@ -822,7 +822,7 @@ mission "Coalition: Fast Courier 2"
 	name "Fast courier to <planet>"
 	description "Deliver <cargo> to <destination> by <date>. The payment is <payment>."
 	deadline 5 1
-	cargo random 2 30 .6
+	cargo "Coalition General" 2 30 .6
 	to offer
 		has "known to the heliarchs"
 		random < 40
@@ -845,7 +845,7 @@ mission "Coalition: Fast Courier 3"
 	name "Fast courier to <planet>"
 	description "Deliver <cargo> to <destination> by <date>. The payment is <payment>."
 	deadline 5 1
-	cargo random 2 40 .6
+	cargo "Coalition General" 2 40 .6
 	to offer
 		has "known to the heliarchs"
 		random < 30
@@ -872,7 +872,7 @@ mission "Coalition: Cargo 1"
 	repeat
 	name "Cargo to <planet>"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo random 4 6 .3
+	cargo "Coalition General" 4 6 .3
 	to offer
 		has "known to the heliarchs"
 		random < 80
@@ -894,7 +894,7 @@ mission "Coalition: Cargo 2"
 	repeat
 	name "Cargo to <planet>"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo random 4 8 .3
+	cargo "Coalition General" 4 8 .3
 	to offer
 		has "known to the heliarchs"
 		random < 70
@@ -916,7 +916,7 @@ mission "Coalition: Cargo 3"
 	repeat
 	name "Cargo to <planet>"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo random 4 11 .3
+	cargo "Coalition General" 4 11 .3
 	to offer
 		has "known to the heliarchs"
 		random < 60
@@ -938,7 +938,7 @@ mission "Coalition: Cargo 4"
 	repeat
 	name "Cargo to <planet>"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo random 4 15 .3
+	cargo "Coalition General" 4 15 .3
 	to offer
 		has "known to the heliarchs"
 		random < 50
@@ -961,7 +961,7 @@ mission "Coalition: Bulk 1"
 	repeat
 	name "Bulk cargo to <planet>"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo random 20 6 .1
+	cargo "Coalition General" 20 6 .1
 	to offer
 		has "known to the heliarchs"
 		random < 60
@@ -983,7 +983,7 @@ mission "Coalition: Bulk 2"
 	repeat
 	name "Bulk cargo to <planet>"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo random 30 9 .1
+	cargo "Coalition General" 30 9 .1
 	to offer
 		has "known to the heliarchs"
 		random < 50
@@ -1005,7 +1005,7 @@ mission "Coalition: Bulk 3"
 	repeat
 	name "Bulk cargo to <planet>"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo random 40 15 .1
+	cargo "Coalition General" 40 15 .1
 	to offer
 		has "known to the heliarchs"
 		random < 40
@@ -1027,7 +1027,7 @@ mission "Coalition: Bulk 4"
 	repeat
 	name "Bulk cargo to <planet>"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo random 50 25 .1
+	cargo "Coalition General" 50 25 .1
 	to offer
 		has "known to the heliarchs"
 		random < 30
@@ -1051,7 +1051,7 @@ mission "Coalition: Rush 1"
 	name "Rush Delivery to <planet>"
 	description "<destination> needs a shipment of <cargo> by <date>. Payment will be <payment>."
 	deadline
-	cargo random 10 8 .2
+	cargo "Coalition General" 10 8 .2
 	to offer
 		has "known to the heliarchs"
 		random < 60
@@ -1074,7 +1074,7 @@ mission "Coalition: Rush 2"
 	name "Rush Delivery to <planet>"
 	description "<destination> needs a shipment of <cargo> by <date>. Payment will be <payment>."
 	deadline
-	cargo random 10 12 .2
+	cargo "Coalition General" 10 12 .2
 	to offer
 		has "known to the heliarchs"
 		random < 50
@@ -1097,7 +1097,7 @@ mission "Coalition: Rush 3"
 	name "Rush Delivery to <planet>"
 	description "<destination> needs a shipment of <cargo> by <date>. Payment will be <payment>."
 	deadline
-	cargo random 10 18 .2
+	cargo "Coalition General" 10 18 .2
 	to offer
 		has "known to the heliarchs"
 		random < 40
