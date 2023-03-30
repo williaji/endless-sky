@@ -15,7 +15,7 @@
 # The standard commodity list has been editied to remove human centric items.
 ##################
 trade
-	commodity "Coalition General" 100 600
+	commodity "Coalition General"
 	#
 	# Arachi
 	#
@@ -192,7 +192,6 @@ trade
 		"waterproof fiber"
 		"wetsuits"
 		"winter coats"
-		"wigs"
 		"wool"
 		"zippers"
 	
@@ -560,6 +559,7 @@ trade
 		"vacuum tubes"
 		"voltage converters"
 		"wireless receivers"
+	
 	#	commodity "Heavy Metals" 610 1310
 		"actinide metals"
 		"barium"
